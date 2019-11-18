@@ -32,7 +32,7 @@ async agregarLista() { // al añadir async lo convertimos en una promesa
   {
     text: 'Crear',
     handler: (data) => {
-      console.log(data);
+      // console.log(data);
       if (data.titulo.length === 0) {
         return;
       }
